@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio for Shahbaz</title>
+    <!--------style link------->
+    <link rel="stylesheet" href="styles.css">
+    <!--------icon link-------->
+    <script src="https://kit.fontawesome.com/6346891d99.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!---header section start-->
+    <header id="header">
+        <nav>
+            <div class="logo">
+                <a href="#"><h1><span>S</span>hahbaz.</h1>
+                </a>
+            </div>
+            <div class="bar">
+                <i class="fa-solid fa-bars"></i>
+            </div>  
+            <div class="menu">
+                    <a href="#" id="home"  class="active-nav nav">home</a>
+                    <a href="#about" class="nav">about</a>
+                    <a href="#projects" class="nav">projects</a>
+                    <a href="#certificates" class="nav">certificates</a>
+                    <a href="#contact" class="nav">contact</a>
+            </div> 
+        </nav>
+        <div class="container">
+            <div class="header-text">
+                <p>Frontend Web developer</p>
+                <h1>Hi, I'M <span>Mohammed</span> <br>Shahbaz From India</h1>
+                <a href="Images/frontend_developer_resume (3).pdf" download class="btn">
+                    Download Resume
+                </a>
+            </div>
+        </div>
+    </header>
+
+<!-----------main----------->
+<main>
+
+    <!------about------->
+    <section id="about">
+        <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="Images/Untitled Project_removed.png" >
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">about me</h1>
+                        <p>I am Mohammed Shahbaz currently persouing Bachelor engineering in Electronic and Communication department at Islamia Engineering College, Bandlaguda, Hyd. I am always interested in coding and programming. I have a strong foundation in web development technologies, including HTML, CSS, and JavaScript, I am
+                        seeking a dynamic entry-level position as a Frontend Developer. Eager to apply my knowledge and passion for creating visually appealing and user-friendly interfaces.</p>
+                        <div class="tab-title">
+                            <p class="tab-links active-link" onclick="
+                                showTabContent('education');
+                                ">Education</p>
+                            <p class="tab-links"
+                            onclick="
+                                showTabContent('techSkills');
+                                ">Technical Skills</p>
+                            <p class="tab-links" onclick="
+                            showTabContent('personalSkills');
+                            ">Personal Skills</p>
+                        </div>
+                        <div class="tab-content active-tab" id="education">
+                            <ul>
+                                <li><span>2020 - 2024</span><br>B.E (ECE) from ISL Engineering College, Hyd.</li>
+                                <li><span>2018 - 2020</span><br>Intermediate (MPC) from GOVT. City Junior College, Hyd.</li>
+                                <li><span>2017 - 2018
+                                    </span><br>SSC from Bright Future High School, Hyd.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="techSkills">
+                            <ul>
+                                <li><span>Languages</span><br> C, C++, HTML, CSS, JavaScript, MicroSoft Skills.
+                                </li>
+                                <li><span>Developer Tools</span><br> VS Code, Google Cloud Platform, MATLAB.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="personalSkills">
+                            <ul>
+                                <li><span>Languages</span><br> English, Urdu, Hindi.</li>
+                                <li><span>Personality</span><br>• Great analytical and problem-solving skills<br>
+                                • Ability to think rationally and thoughtfully<br>
+                                • Attentive listener and effective oral communication skills<br>
+                                • Eagerness to know and learn something<br>
+                                 • Good at working collaboratively with people and by own to achieve the goals.</li>
+                                <li><span>Interests
+                                </span><br>• Learning<br>
+                                • Coding and Programming<br>
+                                • Time Managemen</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section> 
+    
+    <!------------projects------------>
+    <section id="projects" >
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="projects-grid">
+                <div class="project-list">
+                    <div class="project-image">
+                        <img src="Images/project-img-2.jpeg">
+                    </div>
+                    <div class="project-details">
+                        <h1 class="project-title">Restaurant(Royal Theme) Website</h1>
+                        <p class="project-summary">This website connect you to your favorites food and drinks. Enjoy different menu from our expert with your friends and family members. Reservations are available. </p>
+                        <div class="project-link">
+                            <a href="https://github.com/MohammedShahbaz123/EasyCode-Web-Dev-Royal-Food-Web" target="_blank">
+                            github.io
+                            </a>
+                            <a href="https://mohammedshahbaz123.github.io/EasyCode-Web-Dev-Royal-Food-Web/" target="_blank">
+                            Live demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-list">
+                    <div class="project-image">
+                        <img src="Images/project-img-1.webp">
+                    </div>
+                    <div class="project-details">
+                        <h1 class="project-title">Restaurant(Simple Theme) Website</h1>
+                        <p class="project-summary">This website connect you to your favorites fast foods and sweets. Enjoy different menu from our expert with your friends and family members. Online order available and free delivery.</p>
+                        <div class="project-link">
+                            <a href="https://github.com/MohammedShahbaz123/simple-theam-food-web" target="_blank">
+                            github.io
+                            </a>
+                            <a href="https://mohammedshahbaz123.github.io/simple-theam-food-web/" class="project-link" target="_blank">
+                            Live demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-list">
+                    <div class="project-image">
+                        <img src="Images/project-img-3.png">
+                    </div>
+                    <div class="project-details">
+                        <h1 class="project-title">SocialBook Website</h1>
+                        <p class="project-summary">This website connect you to your friends,companies and with the world. Discover events, development news, and world news.  </p>
+                        <div class="project-link">
+                            <a href="https://github.com/MohammedShahbaz123/SocialBook" target="_blank">
+                            github.io
+                            </a>
+                            <a href="https://mohammedshahbaz123.github.io/SocialBook/" class="project-link" target="_blank">
+                            Live demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="see-more">
+                <button>See more</button>
+            </div>
+        </div>
+    </section>
+
+    <!--------certifcates--------->
+    <section id="certificates">
+        <div class="container">
+            <h1 class="sub-title">My Certificates</h1>
+            <div class="certificate-grid">
+                <div class="certificate-list">
+                    <h1>udemy</h1>
+                    <h2>Frontend Developer</h2>
+                    <span onclick="
+                    showCertificate('certificate-1');
+                    " class="Veiw-certificate">Veiw certificate</span>
+                    <p>It was a 17 hours of virtual course. Which is i have completed successfully by JavaScript, HTML5 and CSS3.</p>
+                </div>
+                <div class="certificate-list">
+                    <h1>AWS academy</h1>
+                    <h2>Data Analytics Virtual Intenship</h2>
+                    <span onclick="
+                    showCertificate('certificate-2');
+                    " class="Veiw-certificate">Veiw certificate</span>
+                    <p>It was a 10 weeks virtual internship. Which is i have completed successfully by completing all tasks and got certified.</p>
+                </div>
+                <div class="certificate-list">
+                    <h1>Methodist college of E&T</h1>
+                    <h2>Cyber Security & Artificial Intelligence</h2>
+                    <span onclick="
+                    showCertificate('certificate-3');
+                    " class="Veiw-certificate">Veiw certificate</span>
+                    <p>Publish a research paper with the title ”Cyber Security and Artificial    Intelligence”. Collaborated with my team and guide to complete research paper and publish it.</p>
+                </div>
+            </div>
+            <div class="certificates-container"  id="certificate-1">
+                <img src="Images/frontend developer-img.png">
+                <span class="close">X</span>
+            </div>
+            <div class="certificates-container" id="certificate-2">
+                <img src="Images/data analysis-img.png" >
+                <span class="close">X</span>
+            </div>
+            <div class="certificates-container" id="certificate-3">
+                <img src="Images/cyber security-img.png">
+                <span class="close">X</span>
+            </div>
+            <div class="see-more">
+                <button>See more</button>
+            </div>
+        </div>
+    </section>
+
+    <!---------contact---------->
+    <section id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-col-1">
+                <h1>Contact Me</h1>
+                <p><i class="fa-solid fa-at"></i><span>shahbazmohammed2000@gmail.com</span></p>
+                <p><i class="fa-solid fa-square-phone"></i><span>+91 6304253940</span></p>
+                <div class="contact-icons">
+                    <a href="https://www.linkedin.com/in/mohammed-shahbaz-385b052a1/" target="_blank"><i class="fa-brands fa-linkedin" ></i></a>
+                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="Images/frontend_developer_resume (3).pdf" download class="download">Download Resume</a>
+            </div>
+            <div class="contact-col-2">
+                <div class="msg-sent">
+                    <p>hello!</p>
+                </div>
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="7" placeholder="Your Message" required></textarea>
+                    <button type="submit" name="submit" class="Submit">Submit</button>
+                </form>
+            </div>
+        </div>
+            </div>
+    </section>
+</main>
+
+<!--------footer------->
+<footer>
+    Copyright <i class="fa-regular fa-copyright"></i> Shahbaz | Created by Mohammed Shahbaz
+</footer>
+      
+
+</body>
+<script src="script.js"></script>
+</html>
