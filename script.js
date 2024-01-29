@@ -72,7 +72,7 @@ menuBar.addEventListener('click',()=>{
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
       .then(response => {
-          msgSent.innerHTML="message sent successfully!";   
+          msgSent.innerHTML="Message sent successfully!";   
           msgSent.style.right='0';     
           setTimeout(function(){
                msgSent.innerHTML="";
